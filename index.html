@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    shoe calogue
+  </title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+  <link type="text/css" href="shoe.css" rel="stylesheet">
+</head>
+
+<body>
+  <h2>BILEY<strong>SWAG</strong></h2>
+  <img src="https://s-media-cache-ak0.pinimg.com/736x/06/87/0e/06870eefb686a15f8ed458d28dc60e0b.jpg" length="234px" width="234px" height="234px"></img>
+  <button id="addbutton">Filter</button>
+  <script class="myTemplatedropdown" type="text/x-handlebars">
+      <select class="name">
+      {{#each shoes}}
+      <option value="{{name}}">{{name}}</option>
+      {{/each}}
+      </select>
+      <select class="color">
+      {{#each shoes}}
+      <option>{{color}}</option>
+     {{/each}}
+     </select>
+     <select class="size">
+     {{#each shoes}}
+
+     <option>{{size}}</option>
+     {{/each}}
+
+     </select>
+     <select>
+     {{#each shoes}}
+     <option>{{in_stock}}</option>
+     {{/each}}
+     </select>
+     </script>
+     <script class="mysecTemplate" type="text/x-handlebars">
+       <table border="2px" align='center'>
+
+         <thead></thead>
+      <tr>
+       <th>name</th>
+      <th>color</th>
+     <th>size</th>
+     <th>in_stock</th>
+   </tr>
+   {{#each table}}
+   <tr>
+     <td>{{name}}</td>
+     <td>{{color}}</td>
+     <td>{{size}}</td>
+     <td>{{in_stock}}</td>
+   </tr>
+   {{/each}}
+     </script>
+      <p id='outputs'></p>
+      <p id="outputs2"></p>
+    </body>
+<script src="shoe.js"></script>
+</html>
