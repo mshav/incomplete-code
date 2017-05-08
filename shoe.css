@@ -1,13 +1,21 @@
 h2{
-color:#1a4db2;
-font-family:monospace;
+color:white;
+font-family:impact;
 text-align:center;
-font-size:73px;
+border: solid #00A86A 20px;
 margin-bottom: 14px;
-}
+background-color:#00A86A;
+height:64px;
 
+}
+.paragraphy{
+border:solid black 3px;
+width:634px;
+
+
+}
 strong{
-color:#b21a1a;
+color:white;
 font-family:monospace;
 text-align:center;
 font-size:73px;
@@ -15,5 +23,54 @@ margin-bottom:14px;
 }
 img{
 margin-left:525px;
+.l{
+color:red;
+margin-left: 45px;
 
+
+}
+}
+.h31{
+border:solid #1a4db2 4px;
+width:234px;
+border-radius:4px;
+background-color:#1a4db2;
+color:white;
+margin-left: -4px;
+
+}
+
+
+.textbox1{
+color:black;
+width:250px;
+text-align: center;
+}
+.button{
+
+}
+.img2{
+margin-left: -543px;
+
+}
+.textbox2{
+
+  color:black;
+  width:232px;
+  text-align: center;
+  border-radius: 1px;
+
+
+}
+.king{
+margin-left: 734px;
+
+}
+.biley{
+color:white;
+width:30px;
+height:30px;
+border:solid #00A86A 7px;
+background-color:#00A86A;
+border-radius:3px;
 }
